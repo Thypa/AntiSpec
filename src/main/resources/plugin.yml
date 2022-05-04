@@ -1,0 +1,9 @@
+name: AntiSpec
+version: '${project.version}'
+main: nl.thypa.antispec.Main
+api-version: 1.18
+prefix: AntiSpec
+permissions:
+  antispec.immune:
+    default: op
+    description: Makes the player immune
